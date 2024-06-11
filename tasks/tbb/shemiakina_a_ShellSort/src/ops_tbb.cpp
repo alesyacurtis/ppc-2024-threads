@@ -2,7 +2,6 @@
 #include "tbb/shemiakina_a_ShellSort/include/ops_tbb.hpp"
 
 #include <oneapi/tbb/parallel_for.h>
-
 #include <thread>
 
 using namespace std::chrono_literals;

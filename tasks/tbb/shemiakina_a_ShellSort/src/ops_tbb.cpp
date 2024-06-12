@@ -85,7 +85,7 @@ void ShellTaskTBB::ShellSort_Parallel(std::vector<int>& input) {
 
   std::vector<std::vector<int>> chunks(num_procs);
 
-  tbb::parallel_for ( 0, num_procs, [&](int i) {
+  tbb::parallel_for( 0, num_procs, [&](int i) {
     int startIdx = i * chunk_size;
     int endIdx = startIdx + chunk_size;
     if (i == num_procs - 1) {

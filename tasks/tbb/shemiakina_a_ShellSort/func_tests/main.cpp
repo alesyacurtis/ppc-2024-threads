@@ -28,6 +28,7 @@ void TestRandomVector(int count) {
 
 TEST(shemiakina_a_ShellSort_TBB, Validation_Fail) {
   const int count = 10;
+
   // Create data
   std::vector<int> in1 = ShellTaskTBB::give_random_vector(count, 1, 100);
   std::vector<int> in2 = std::vector<int>(5);

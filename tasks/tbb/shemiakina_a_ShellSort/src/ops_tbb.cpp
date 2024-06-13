@@ -73,7 +73,6 @@ std::vector<int> ShellTaskTBB::merge(const std::vector<std::vector<int>>& chunks
     // Update result vector with merged vector
     res = std::move(merged);
   }
-
   return res;
 }
 

@@ -39,7 +39,6 @@ bool ShellTaskTBB::post_processing() {
 
 std::vector<int> ShellTaskTBB::merge(const std::vector<std::vector<int>>& chunks) {
   std::vector<int> res;
-
   // Merge the sorted chunks
   for (const auto& chunk : chunks) {
     // Merge the current chunk with the result vector

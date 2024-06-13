@@ -44,7 +44,6 @@ TEST(shemiakina_a_ShellSort_TBB, pipeline_run) {
 
 TEST(shemiakina_a_ShellSort_TBB, task_run) {
   const int count = 100;
-
   // Create data
   std::vector<int> in(1, count);
   std::vector<int> out(count, 0);

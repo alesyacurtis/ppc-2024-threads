@@ -20,7 +20,6 @@ class ShellTaskTBB : public ppc::core::Task {
   bool validation() override;
   bool run() override;
   bool post_processing() override;
-
   static bool CheckSort(std::vector<int> input);
   static std::vector<int> give_random_vector(int size, int min, int max);
 
